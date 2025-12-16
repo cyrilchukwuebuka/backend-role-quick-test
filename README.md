@@ -1,11 +1,5 @@
 # NovaCrust Core API Service
 
-
-Every API request should have an 'idempotency-key' attached to the Header
-The idempotency key helps prevent race conditions and maintain transaction integrity
-
-
-
 ## OVERVIEW
 
 The NovaCrust API allows users to manage funding and inter-transfer between different accounts. This API uses NestJS, TypeORM and Typescript.
